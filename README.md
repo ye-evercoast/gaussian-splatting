@@ -84,7 +84,7 @@ The optimizer uses PyTorch and CUDA extensions in a Python environment to produc
 
 ### Hardware Requirements
 
-- CUDA-ready GPU with Compute Capability 7.0+
+- CUDA-ready GPU with Compute Capability 6.0+
 - 24 GB VRAM (to train to paper evaluation quality)
 - Please see FAQ for smaller VRAM configurations
 
@@ -304,7 +304,7 @@ We provide two interactive viewers for our method: remote and real-time. Our vie
 ### Hardware Requirements
 - OpenGL 4.5-ready GPU and drivers (or latest MESA software)
 - 4 GB VRAM recommended
-- CUDA-ready GPU with Compute Capability 7.0+ (only for Real-Time Viewer)
+- CUDA-ready GPU with Compute Capability 6.0+ (only for Real-Time Viewer)
 
 ### Software Requirements
 - Visual Studio or g++, **not Clang** (we used Visual Studio 2019 for Windows)
